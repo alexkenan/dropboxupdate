@@ -1,5 +1,5 @@
 """
-Pull the "Updater" folder from Dropbox to update & overwrite folder on RPI
+Pull and pull the "Updater" folder from Dropbox to update & overwrite folder on RPI
 """
 #####################################
 #    LAST UPDATED     20 MAY 2017   #
