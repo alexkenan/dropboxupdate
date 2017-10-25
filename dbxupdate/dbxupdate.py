@@ -2,7 +2,7 @@
 Pull any folder from Dropbox to update & overwrite folder on RPI
 """
 #####################################
-#    LAST UPDATED     01 JUN 2017   #
+#    LAST UPDATED     10 SEP 2017   #
 #####################################
 import os
 import sys
@@ -159,6 +159,7 @@ def system_check(path):
         except FileExistsError:
             pass
         return '/Users/Alex/Desktop/dbxTemp/', '/Users/Alex/Desktop/dbxReplace/', 'darwin'
+
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
